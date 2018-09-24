@@ -2,6 +2,9 @@
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color: #2A77AE;
+    color: white;
     margin-bottom: 50px;
+    background: #5133a4;
+    position: relative;
+    min-height: 70px;
   }
