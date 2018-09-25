@@ -2,10 +2,14 @@ import React from "react";
 import "./Title.css";
 
 const Title = () => (
-  <div className="title">
-    <nav className="navbar">
-      <span className="navbar-brand mb-0 h1"><a href="/">Simpsons Clicky Game</a></span>
-    </nav>
+  <div className="jumbotron jumbotron-fluid">
+    <div className="container text-center">
+      <h1 className="display-4">React Clicky Game!</h1>
+      <p className="lead">
+        Click on any image to earn points, but don't click on any more than
+        once!
+      </p>
+    </div>
   </div>
 );
 
