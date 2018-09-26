@@ -19,3 +19,12 @@
     font-size: 30px;
     margin-bottom: -100px;
 }
+
+.footer>.bottom>img {
+    width: 50px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+    margin-right: 1px;
+    margin-bottom: 17px;
+}
