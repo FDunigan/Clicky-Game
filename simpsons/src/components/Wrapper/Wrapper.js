@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import CharacterCard from "../CharacterCard";
 import images from "../../characters.json";
-import Footer from "../Footer";
 import "./Wrapper.css";
 
 class Wrapper extends Component {
