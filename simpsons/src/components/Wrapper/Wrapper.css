@@ -10,13 +10,14 @@
 }
 
 .gameMessage p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Chicle', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    background-color: black;
+    background-color: rgb(37, 37, 241);
     color: white;
     padding: 20px 0;
     margin-bottom: 0px;
+    font-size: 30px;
 }
 
 .gameScores {
@@ -26,11 +27,12 @@
     margin-bottom: 10px;
 }
 .gameScores p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Chicle', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    background-color:#e7283a;
+    background-color: rgb(37, 37, 241);
     color: white;
     padding: 20px 0;
     margin-bottom: 25px;
+    font-size: 25px;
 }
