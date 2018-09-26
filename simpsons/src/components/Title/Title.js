@@ -6,8 +6,8 @@ const Title = () => (
     <div className="container text-center">
       <h1 className="display-4">The Simpsons Clicky Game!</h1>
       <p className="lead">
-        Click on any image to earn points, but don't click on any more than
-        once!
+        Click on any image to earn points, but click on an image more than once
+        and you lose!
       </p>
     </div>
   </div>

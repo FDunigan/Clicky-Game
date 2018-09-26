@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import CharacterCard from "../CharacterCard";
 import images from "../../characters.json";
+import Footer from "../Footer";
 import "./Wrapper.css";
 
 class Wrapper extends Component {
   state = {
     images,
-    message: "Click one of the logos to begin!",
+    message: "Click one of the Characters to begin!",
     score: 0,
     topScore: 0
   };
@@ -19,6 +20,7 @@ class Wrapper extends Component {
         imageOrder[index].clicked = false;
       });
       return this.setState({
+        // randomize click event
         image: imageOrder.sort(() => Math.random() - 0.5),
         message: "You Guessed Incorrectly!",
         score: 0
@@ -32,9 +34,11 @@ class Wrapper extends Component {
 
       const { topScore, score } = this.state;
       const newScore = score + 1;
+      // ternary operator
       const newTopScore = newScore > topScore ? newScore : topScore;
 
       return this.setState({
+        // randomize click event
         image: imageOrder.sort(() => Math.random() - 0.5),
         message: "You Guessed Correctly!",
         score: newScore,
